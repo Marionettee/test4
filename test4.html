@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登陆</title>
+<style type="text/css">
+*{margin:0;padding:0;text-decoration:none;}
+.head{
+    background-color: #68cdd5 ;
+    position: relative ;
+    padding:5% 0;
+}
+.head p{
+    position:absolute;
+    top:40%;
+    left:5%;
+    font-size: 1.2em;
+	color:#fff;
+}
+.head p~p{
+    top:30%;
+    left:45%;
+    font-size:1.5em;
+	color:#fff;
+}
+.head p~p~p{
+    top:40%;
+    left:85%;
+    font-size: 1.2em;
+	color:#fff;
+}
+.head p a{
+	color:#fff;
+}
+.main{
+    width:100%;
+    position:relative;
+    background-color:#eff0f4;
+    padding: 30% 0;
+}
+.box-one{
+    width:100%;
+    padding: 1% 0;
+    position:absolute;
+    top:4%;
+    background-color: #fff;
+}
+.box-one input#number{
+    margin:2% 22%;
+    border:none;
+    border-left:0.1em solid #fff;
+    color:black;
+    height:1.5em;
+    font-size: 1.5em;
+}
+.box-one img{
+	width:5em;
+	height:auto
+    max-width: 4%;
+    position:absolute;
+    top:5%;
+    left:7%;
+}
+.box-two{
+    width:100%;
+    padding: 1% 0;
+    position:absolute;
+    top:31%;
+    background-color:#fff  ;
+}
+.box-two input#password{
+    margin:2% 22%;
+    border:none;
+    border-left:0.1em solid #fff;
+    color:black;
+    height:1.5em;
+    font-size: 1.5em;
+}
+.box-two img {
+	width:5em;
+	height:auto
+    max-width: 4%;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+}
+button{
+    width:100%;
+    position:absolute;
+    top:76%;
+    padding:3% 40%;
+    text-align: center;
+    background-color: #68cdd5 ;
+}
+button p{
+    font-size: 1.5rem;
+    color:white;
+    letter-spacing:0.3em;
+}
+.foot{
+    width:100%;
+    padding-bottom: 40%;
+    font-size: 1em;
+    text-align: right ;
+    color: #68cdd5 ;
+    background-color:#eff0f4;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="head">
+        <p><a href="#">关闭</a></p>
+        <p>登陆</p>
+        <p><a href="#">注册</a></p>
+    </div>
+    <div class="main">
+        <div class="box-one">
+            <img src="images/phone.png">
+            <input type="text" name="number" id="number" value="" placeholder="请输入手机号"/>
+      </div>
+        <div class="box-two">
+            <img src="images/key.png">
+            <input type="password" name="pass" id="password" value="" placeholder="请输入密码"/>
+      </div>
+         <button type="submit">
+             <p>登陆</p>
+         </button>
+    </div>
+     <div class="foot">
+        <p><a href="#">忘记密码？</a></p>
+    </div>
+</div>
+</body>
+</html>
